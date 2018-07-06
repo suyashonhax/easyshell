@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin
+#!/data/data/com.termux/files/usr/bin/bash
 cyan='\033[1;36m'
  green='\033[1;32m'
   red='\033[1;31m'
