@@ -157,18 +157,13 @@ sleep 2
 echo -e "$grey    __________ "
 echo -e "$cyan   / _____/  | __ "
 echo -e "$blue   \_____ \| |/ / "
-echo -e "$blue  /       \   < "
+echo -e "$blue   /       \   < "
 echo -e "$cyan  /______  /__|_ \ "
 echo -e "$grey         \/     \/ "
 echo " "
 sleep 1
 echo -e "$green Thaks For Using$blue EasyShell$green Script"
 sleep 1
-fi
-if [ $sk = $sk ]; then
-echo " "
-echo -e "$yellow Type 'help' For all Instruction"
-es
 fi 
 if [ $sk = 'help' ]; then
 echo -e "$green Hello I am$blue Suyash$green Here to help you--->"
