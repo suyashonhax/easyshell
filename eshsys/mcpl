@@ -8,4 +8,5 @@ cyan='\033[1;36m'
      reset='\033[0m'
      grey='\033[1;30m'
      echo -e "$grey Powered By EasyShell By Suyash.... "
+     echo -e "$green"
      sleep 1
