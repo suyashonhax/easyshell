@@ -36,7 +36,7 @@ read -p 'Esh-->' x
 if [ $x = '2' ]; then
 for run in {1..2}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -46,7 +46,7 @@ fi
 if [ $x = '3' ]; then
 for run in {1..3}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -56,7 +56,7 @@ fi
 if [ $x = '4' ]; then
 for run in {1..4}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -66,7 +66,7 @@ fi
 if [ $x = '5' ]; then
 for run in {1..5}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -76,7 +76,7 @@ fi
 if [ $x = '6' ]; then
 for run in {1..6}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -86,7 +86,7 @@ fi
 if [ $x = '7' ]; then
 for run in {1..7}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -96,7 +96,7 @@ fi
 if [ $x = '8' ]; then
 for run in {1..8}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -106,7 +106,7 @@ fi
 if [ $x = '9' ]; then
 for run in {1..9}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -116,7 +116,7 @@ fi
 if [ $x = '10' ]; then
 for run in {1..10}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
@@ -126,7 +126,7 @@ fi
 if [ $x = '11' ]; then
 for run in {1..11}
 do
-  echo "$green"
+  
   read -p 'Esh-->' n
   echo "$n" >> $PREFIX/bin/$nsk
 done
