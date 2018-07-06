@@ -21,6 +21,11 @@ cp -r es $PREFIX/bin
 cd $HOME
 cd easyshell
 rm -rf es
+cd $HOME
+cd $PREFIX/bin
+chmod +x es
+cd $PREFIX/bin/eshsys
+chmod +x mcpl
 echo -e "$green Setup Done"
 sleep 2
 echo -e "$cyan Thnx For Using Esh Created By sk"
