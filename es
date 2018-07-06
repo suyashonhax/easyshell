@@ -41,7 +41,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '3' ]; then
 for run in {1..3}
@@ -51,7 +51,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '4' ]; then
 for run in {1..4}
@@ -61,7 +61,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '5' ]; then
 for run in {1..5}
@@ -71,7 +71,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '6' ]; then
 for run in {1..6}
@@ -81,7 +81,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '7' ]; then
 for run in {1..7}
@@ -91,7 +91,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '8' ]; then
 for run in {1..8}
@@ -101,7 +101,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '9' ]; then
 for run in {1..9}
@@ -111,7 +111,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '10' ]; then
 for run in {1..10}
@@ -121,7 +121,7 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 if [ $x = '11' ]; then
 for run in {1..11}
@@ -131,14 +131,14 @@ do
   echo "$n" >> $PREFIX/bin/$nsk
 done
 sleep 1
-esh
+es
 fi
 else 
 echo "Pls Enter The Command: "
 read -p 'Esh-->' csk
 echo "$csk" >> $PREFIX/bin/$nsk
 sleep 1
-esh
+es
 fi
 else
 echo -e "$red Pls Run The Setup Script Again"
@@ -147,7 +147,7 @@ fi
 if [ $sk = 'check' ]; then
 cd $PREFIX/bin/eshsys
 ls | cat -n name
-esh
+es
 fi
 if [ $sk = 'quit' ]; then
 sleep 1
@@ -166,10 +166,9 @@ echo -e "$green Thaks For Using$blue EasyShell$green Script"
 sleep 1
 fi
 if [ $sk = $sk ]; then
-echo -e "$red Wrong Command"
 echo " "
 echo -e "$yellow Type 'help' For all Instruction"
-esh
+es
 fi 
 if [ $sk = 'help' ]; then
 echo -e "$green Hello I am$blue Suyash$green Here to help you--->"
@@ -180,5 +179,5 @@ ls | cat -n help
 echo " "
 sleep 3
 echo -e "$green I Hope It helps To You"
-esh
+es
 fi
