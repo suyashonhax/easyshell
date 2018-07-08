@@ -7,6 +7,11 @@ cyan='\033[1;36m'
     purple='\033[1;35m'
      reset='\033[0m'
      grey='\033[1;30m'
+echo -e "$red Please Choose Your OS"
+echo -e "$cyan 1) Termux"
+echo -e "$cyan 2) Kali-Nethunter Chroot in Termux "
+read -p 'Esh--> ' sk
+if [ $sk = '1' ]; then
 echo -e "$cyan"
 echo "Setting Up Your Easy Shell Shortcut Maker"
 echo " " 
@@ -31,3 +36,20 @@ sleep 2
 echo -e "$cyan Thnx For Using Esh Created By sk"
 sleep 1
 echo -e "$cyan Run The Easy Shell By ' es '... "
+fi
+if [ $sk = '2' ]; then
+cd /root
+cd easyshell
+mv eshsys /usr/bin
+cd /usr/bin/eshsys
+chmod +x mcpl
+cd /root
+cd easyshell
+mv shebang /usr/bin
+cd /usr/bin
+chmod +x shebang
+cd /usr/bin/eshsys
+shebang mcpl
+echo -e "$green Setup Done"
+sleep 1
+fi
